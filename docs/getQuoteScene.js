@@ -5,7 +5,7 @@ const quoteSceneID = "quoteScene"//this is kinda like an id that allows us to 1.
 //creates a scene
 const quoteScene = new Scenes.BaseScene(quoteSceneID)//usually when creating a scene i don't store the ids in variables tho, i just put the string there
 
-quoteScene.enter((ctx) => {
+quoteScene.enter((ctx) => {//what happens when u enter a scene
     //id like you to add a btn
     ctx.reply("You have entered quote scene")
     const quoteUrl = "https://api.api-ninjas.com/v1/quotes?category=success";

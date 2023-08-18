@@ -3,7 +3,7 @@
 const getFacts = (ctx) => {
    //used a anonymous function to get u to understand what i was trying to say
    
-   const factUrl = "https://api.api-ninjas.com/v1/facts?limit=1"
+   const factUrl = "https://api.api-ninjas.com/v1/facts?limit=1" //api url, provided by the API.
    const apiKey = process.env.API_KEY;
 
    // u should try and understand how the fetch works, when we start dealing with more apis you'll need to use it oftern
@@ -14,7 +14,7 @@ const getFacts = (ctx) => {
       },
    })
       .then((response) => {
-         return response.json()
+         return response.json() 
       })
       .then((data) => {//actual data
          console.log(data); //logs to terminal
@@ -22,7 +22,7 @@ const getFacts = (ctx) => {
          ctx.reply(factMessage)
       })
       .catch((error) => {//catches error that occurs in any of the .thens
-         console.error("Error fecthing facts:", error);
+         console.error("Error fecthing facts:", error);//throws error to terminal
       });
 };
 
