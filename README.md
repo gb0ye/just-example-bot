@@ -2,9 +2,9 @@
 
 The bot is pretty simple, get facts and get quotes.
 
-For the file structure itself the main files is at the root folder while others are inside docs.
+For the file structure the main files is at the root folder while others are inside docs.
 
-The  gitignore file tells git on my local repo the files to be exempted from being pushed. But now that i think of it, the gitignore file should also be exempted but i won't do that.
+The  gitignore file tells git on my local repo the files to be exempted from being pushed. But now that i think of it, the gitignore file should also be exempted, but, i won't do that.
 
 The Readme.md file is obvious
 
