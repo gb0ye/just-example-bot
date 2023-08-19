@@ -16,3 +16,6 @@ For quotes and facts api click [here](https://api-ninjas.com/).
 Telegraf Framework Site, [here](https://telegrafjs.org/#/).  
 Telegram Bot API, [here](https://core.telegram.org/bots/api).  
 Bot Link, [here](https://t.me/just_an_example_bot).  
+
+## Note
+For the quote and facts api you should use my username and password if u decide to login. Chat me up for that.
